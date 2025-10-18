@@ -30,3 +30,8 @@ print(type(tuplaNoCambia))  # <class 'tuple'>
 print(type(diccionario))  # <class 'dict'>
 print(type(rango))  # <class 'range'>
 print(type(dato_byte))  # <class 'bytes'>
+
+
+texto = "Hola soy un texto"
+numero = 12345
+print(texto + str(numero)) # cast to string
