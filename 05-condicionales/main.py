@@ -60,3 +60,8 @@ if edad_usuario >= edad_minima and edad_usuario <= edad_maxima:
     print("Puedes trabajar")
 else:
     print("No puedes trabajar")
+
+pais = input("Ingresa el país donde vives: ")
+
+if not (pais == "Mexico" or pais == "España" or pais == "Colombia") or pais == "Argentina":
+    print(f"{pais} es un país de habla hispana.")
