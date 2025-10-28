@@ -8,6 +8,10 @@ Ejercicio 1:
 """
 pais = "España"          # Tipo de dato: str (cadena de texto)
 continente = "Europa"    # Tipo de dato: str (cadena de texto)
+year = 2025               # Tipo de dato: int (entero)
 
-print("País:", pais)
-print("Continente:", continente)
+print(f"País: {pais} - Continente: {continente} - Año: {str(year)}")
+
+print(type(pais))
+print(type(continente))
+print(type(year))
